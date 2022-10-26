@@ -4,7 +4,7 @@ public class FileCreate
 {
   public static void main(String[] args)
 	   {
-	       File folder=new File("D:\\Trainning\\FileHandling\\Practice\\SubFolder\\test.xls");
+	       File folder=new File("D:\\Training\\FileHandling\\Practice\\SubFolder\\test.xls");
 	        boolean present=folder.exists();
 	        if(present ==false)
 	        try 
