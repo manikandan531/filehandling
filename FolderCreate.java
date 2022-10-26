@@ -6,7 +6,7 @@ public class FolderCreate
 {
 	    public static void main(String[] args) 
 	    {
-	        File folder=new File("D:\\Trainning\\FileHandling\\Practice");
+	        File folder=new File("D:\\Training\\FileHandling\\Practice");
 	        boolean present=folder.exists();
 	        System.out.println(" Folder created: "+" "+present);
 	        if(present ==false)
